@@ -139,6 +139,10 @@
             width: 70%;
            
         }
+        .text p{
+            color: #52525A;
+            font-size: 35px;
+        }
         
 }
 
