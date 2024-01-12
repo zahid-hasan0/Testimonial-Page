@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* max-width: 1200px; */
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    position: relative;
+   width: 90%;
+   margin: 0 72px;
+    gap: 20px;
+    background-color:  #e6e3dd;
+
+
+    
+}
+
+.column1{
+    
+    height: 40rem;
+    width:100% ;
+}
+
+.left-container{
+    padding-top:100px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.left-container h1{
+    padding: 10px 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+.left-container p{
+    width: 90%;
+    color: #52525A;
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+    .svg-circle{
+
+        height: 30px;
+        width: 30px;
+        background-color: #F5C044;
+        text-align: center;
+        border-radius: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+ .check-container> #check{
+    display: flex;
+   
+}   
+.check-container{
+    margin-top: 20px;
+} 
+
+
+.column2{
+    
+    height: 40rem;
+    width: 100%;
+}
+.right-container{
+    padding-top:70px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 40px;
+
+    
+   
+}
+
+
+.google,.meta{
+    height: 15rem;
+    width: 60%;
+    background-color:#fff;
+    border-radius: 10px;
+   
+    justify-content: end;
+}
+.google{
+    margin-left: auto;
+    margin-right: 5px;
+}
+.meta{
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+.firs-row img{
+    width: 50%;
+}
+.firs-row{
+    display: flex;
+}
+.firs-row p{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.tex-contener{
+    padding: 30px;
+}
+.text{
+    margin-top: 20px;
+}
+.text p{
+    color: #52525A;
+}
+.star{
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+        .main{
+            flex-direction: column;
+            margin:0;
+        }
+
+        .column1{
+            height: auto;
+        }
+
+        .google,.meta{
+            width: 70%;
+           
+        }
+        
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+
+    .main{
+        flex-direction: column;
+    }
+
+    .column1{
+        height: auto;
+    }
+
+    .google,.meta{
+        width: 70%;
+       
+    }
+    
+}
+
+
+
+  
