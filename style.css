@@ -129,6 +129,7 @@
         .main{
             flex-direction: column;
             margin:0;
+            width: 100%;
         }
 
         .column1{
@@ -151,6 +152,7 @@
     .main{
         flex-direction: column;
         margin: 0;
+        width: 100%;
     }
 
     .column1{
