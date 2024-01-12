@@ -31,14 +31,23 @@
 }
 .left-container h1{
     padding: 10px 0;
-    font-size: 40px;
+    font-size: 1.25rem;
     font-weight: 900;
 }
 .left-container p{
     width: 90%;
+    font-size: 1rem;
     color: #52525A;
     padding-top: 3px;
     padding-left: 4px;
+}
+.left-container li{
+    list-style: none;
+    width: 90%;
+    font-size: 1rem;
+    color: #52525A;
+    padding-top: 3px;
+    padding-left: 2px;
 }
 
     .svg-circle{
@@ -86,7 +95,7 @@
     width: 60%;
     background-color:#fff;
     border-radius: 10px;
-   
+   box-shadow: 3px 3px 3px 5px rgb(235, 229, 229);
     justify-content: end;
 }
 .google{
